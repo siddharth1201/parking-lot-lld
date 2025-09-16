@@ -9,8 +9,8 @@
     *   [Data Model and Schema](#data-model-and-schema)
 4.  [Spot Allocation Strategies & Algorithms](#spot-allocation-strategies--algorithms)
     *   [Nearest to Gate Strategy](#1-nearest-to-gate-strategy)
-    *   [Traffic Control (Zone-Based) Strategy](#2-corrected-algorithm-traffic-control-zone-based-strategy)
-    *   [Nearest to Exit Strategy](#3-corrected-algorithm-nearest-to-exit-strategy)
+    *   [Traffic Control (Zone-Based) Strategy](#2-traffic-control-zone-based-strategy)
+    *   [Nearest to Exit Strategy](#3-nearest-to-exit-strategy)
     *   [Fee Calculation Logic](#fee-calculation-logic)
 5.  [Concurrency Management](#4-concurrency-management)
 6.  [Component Design Details](#services-interfaces-and-enums)
@@ -194,7 +194,7 @@ graph TD
     end
 ```
 
-### 2. Corrected Algorithm: Traffic Control (Zone-Based) Strategy
+### 2. Traffic Control (Zone-Based) Strategy
 
 ```mermaid
 graph TD
@@ -225,7 +225,7 @@ graph TD
     end
 ```
 
-### 3. Corrected Algorithm: Nearest to Exit Strategy
+### 3. Nearest to Exit Strategy
 
 ```mermaid
 graph TD
